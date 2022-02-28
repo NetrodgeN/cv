@@ -1,0 +1,215 @@
+
+.container{
+    margin: 20px auto;
+    width: 1024px;
+    font-family: "Cabin", sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    box-shadow: 10px 10px 40px -1px rgb(0 0 0 / 23%);
+}
+
+.wrapper{
+    display: flex;
+}
+.left-column{
+    padding: 40px;
+    width: 58%;
+}
+
+.right-column{
+    width: 32%;
+    padding-right: 40px;
+}
+
+header{
+    padding: 40px 30px 20px;
+    text-align: center;
+}
+.avatar{
+    border-radius: 50%;
+}
+.portfolio{
+width: 250px ;
+    /*border-radius: 14px;*/
+}
+
+.project{
+    box-shadow: 8px 9px 15px #828485;
+    width: 250px ;
+    height: 156px;
+}
+
+.project:hover{
+    transition: 1.5s;
+    box-shadow: 8px 9px 15px #2AAEE7;
+}
+
+h2{
+    letter-spacing: 2px;
+}
+
+h3{
+    border-bottom: 2px solid #2AAEE7;
+}
+.logo{
+    width: 30px;
+    height: 30px;
+
+    padding: 0 10px 5px 0;
+}
+ul{
+    padding: 0;
+}
+li{
+    display:flex;
+    justify-content:flex-start;
+    align-items: center;
+    list-style-type: none;
+    padding-bottom: 10px;
+}
+
+.contacts-link{
+    text-decoration: none;
+    color: #000;
+    display:flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    background: rgb(42,174,231);
+    background: linear-gradient(90deg, rgba(42,174,231,1) 0%, rgba(2,0,36,1) 50%, rgba(42,174,231,1) 100%);
+    color: #fff;
+}
+
+.my-name{
+    margin: 10px;
+}
+
+.columns{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 32px;
+}
+
+
+/*!!!!!!!!!!!!!!!!!!!!!!!*/
+
+.progress-bar {
+    height: 3px;
+    width: 100%;
+    /*position: relative;*/
+    /*z-index: 10;*/
+    background-color: #fff;
+}
+.progress-bar .progress {
+    /*position: relative;*/
+    height: 100%;
+    background-color: #2AAEE7;
+    transition: width 0.5s ease-out;
+
+}
+.fill-1 {
+    animation: fill-1 2.5s ease-out 0s;
+    animation-fill-mode: forwards;
+    width: 0;
+}
+.fill-2 {
+    animation: fill-2 2.5s ease-out 0.5s;
+    animation-fill-mode: forwards;
+    width: 0;
+}
+.fill-3 {
+    animation: fill-3 2.5s ease-out 1s;
+    animation-fill-mode: forwards;
+    width: 0;
+}
+.fill-4 {
+    animation: fill-4 2.5s ease-out 1.5s;
+    animation-fill-mode: forwards;
+    width: 0;
+}
+.fill-5 {
+    animation: fill-5 2.5s ease-out 2s;
+    animation-fill-mode: forwards;
+    width: 0;
+}
+.fill-6 {
+    animation: fill-6 2.5s ease-out 2.5s;
+    animation-fill-mode: forwards;
+    width: 0;
+}
+.fill-7 {
+    animation: fill-7 2.5s ease-out 3s;
+    animation-fill-mode: forwards;
+    width: 0;
+}
+@keyframes fill-1 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 70%;
+    }
+}
+@keyframes fill-2 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 60%;
+    }
+}
+@keyframes fill-3 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 80%;
+    }
+}
+@keyframes fill-4 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 50%;
+    }
+}
+@keyframes fill-5 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 50%;
+    }
+}
+@keyframes fill-6 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 20%;
+    }
+}
+@keyframes fill-7 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 1%;
+    }
+}
+
+.skills-columns{
+    height: 48px;
+}
+
+.label{
+    display:flex ;
+
+}
