@@ -96,18 +96,19 @@ li{
     gap: 32px;
 }
 
+.about-me-content {
+    text-indent: 1.2em;
+    margin: 0;
+}
 
 /*!!!!!!!!!!!!!!!!!!!!!!!*/
 
 .progress-bar {
     height: 3px;
     width: 100%;
-    /*position: relative;*/
-    /*z-index: 10;*/
     background-color: #fff;
 }
 .progress-bar .progress {
-    /*position: relative;*/
     height: 100%;
     background-color: #2AAEE7;
     transition: width 0.5s ease-out;
@@ -153,7 +154,7 @@ li{
         width: 0;
     }
     100% {
-        width: 70%;
+        width: 50%;
     }
 }
 @keyframes fill-2 {
@@ -161,7 +162,7 @@ li{
         width: 0;
     }
     100% {
-        width: 60%;
+        width: 55%;
     }
 }
 @keyframes fill-3 {
@@ -169,7 +170,7 @@ li{
         width: 0;
     }
     100% {
-        width: 80%;
+        width: 50%;
     }
 }
 @keyframes fill-4 {
@@ -177,7 +178,7 @@ li{
         width: 0;
     }
     100% {
-        width: 50%;
+        width: 30%;
     }
 }
 @keyframes fill-5 {
@@ -213,3 +214,54 @@ li{
     display:flex ;
 
 }
+
+/*code color*/
+
+.color-key-words{
+    color: #c27030;
+}
+
+.color-key-string{
+    color: #567e56;
+}
+.color-function{
+    color: #ee8a3e;
+}
+
+.color-dom{
+    color: #8a6789;
+}
+.color-purple{
+    color: #9472a6;
+}
+
+code{
+    font-size: 14px;
+}
+
+.switch-container{
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid #2AAEE7 ;
+    border-radius: 12px;
+    width: 67px;
+}
+
+.rus{
+    cursor: pointer;
+}
+.rus:hover{
+    color: #2AAEE7;
+}
+
+.eng{
+    cursor: pointer;
+}
+
+.eng:hover{
+    color: #2AAEE7;
+}
+.active{
+    color: #2AAEE7
+}
+

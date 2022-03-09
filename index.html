@@ -13,25 +13,40 @@
 <div class="container">
     <div class="wrapper">
         <div class="left-column">
+            <section class="switch">
+                <div class="switch-container">
+                    <div class="language rus">RU</div>
+                    /
+                    <div class="language eng active">EN</div>
+                </div>
+            </section>
             <section class="about-me">
-            <h3>About Myself</h3>
-                <p>I started programming a few month ago. I found out that I like it so much.
-                    I am responsible, purposeful and quick to learn, that is why it is easy for me
-                    to learn something new.</p>
-                <p>Day after day I am getting better and I want to realize my projects in nearly future.</p>
+            <h3 data-i18n="about-me">About me</h3>
+                <p class="about-me-content" data-i18n="about-me-content-1">My name is Yaroslav, I am 24 years old, I am
+                    junior frontend developer. My personal qualities are ability to achieve goals, effective time
+                    planning, perseverance, ability to easily maintain business and professional relationships, desire
+                    for professional development. At this moment I do not have enough work experience, but my active
+                    life position and purposefulness makes me the kind of person you want to get to know and cooperate
+                    in future.</p>
+                <p class="about-me-content" data-i18n="about-me-content-2">At first, I worked at catering industry: I
+                    graduated from college with a degree in catering technologist, then finished two years with
+                    specialty milky production technologist, I have been a chef for four years at Moscow restaurants. </p>
+                <p class="about-me-content" data-i18n="about-me-content-3">I decided to change my specialty when I saw
+                    my friend working as a programmer. I was interested to try something unknown, my new job quickly
+                    took over, now I plan to develop in this direction. </p>
+                <p class="about-me-content" data-i18n="about-me-content-4">When I work at every task, I learn something
+                    new, I am not afraid to ask for help and advice. It is important for me to complete the task quickly
+                    and effectively. It is important for me not only to gain experience, but also to take my place in a
+                    team where I can be useful, with which I can move into the future, contributing to the common deal.</p>
             </section>
             <section class="courses">
-                <h3>Courses</h3>
+                <h3 data-i18n="courses">Courses</h3>
                 <p>RS School - 'JavaScript/FE'</p>
                 <p>w3schools - HTML and CSS Tutorials</p>
             </section>
-            <section class="courses">
-                <h3>Courses</h3>
-                <p>RS School - 'JavaScript/FE'</p>
-                <p>w3schools - HTML and CSS Tutorials</p>
-            </section>
+
             <section>
-                <h3>My pet projects</h3>
+                <h3 data-i18n="my-projects">My pet projects</h3>
                 <div class="columns">
                 <div class="project">
                     <a href="https://netrodgen.github.io/portfolio/">
@@ -40,26 +55,30 @@
                     </a>
                 </div>
                 <div class="project">
-                    <a href="https://netrodgen.github.io/portfolio/">
-                        <img src="./assets/2.png" alt="my-web-site" class="portfolio">
+                    <a href="https://netrodgen.github.io/movie-app/">
+                        <img src="./assets/3.png" alt="my-web-site" class="portfolio">
                         <!--                    <p>Portfolio</p>-->
                     </a>
                 </div>
                 </div>
             </section>
             <section class="code">
-                <h3>Code example</h3>
-                <code>
-                    let a = 10; <br>
-                    function f() { <br>
-                    let b = 5 <br>
-                    console.log (a, b) <br>
-                    } <br>
-                    f() <br>
-                    console.log(a) <br>
-                    console.log(b) <br>
+                <h3 data-i18n="code-example">Code example</h3>
+                <pre><code>
+<b class="color-key-words">const</b> portfolioBtns = <b class="color-dom">document</b>.<b class="color-function">querySelector</b>(<b class="color-key-string">'.button__column'</b>);
+<b class="color-key-words">function</b> <b class="color-function">changeImage </b>(event) {
+    <b class="color-key-words">if</b>(event.<b class="color-purple">target</b>.<b class="color-purple">classList</b>.contains(<b class="color-key-string">'button__portfolio'</b>)) {
+        <b class="color-key-words">const</b> season = event.<b class="color-purple">target</b>.<b class="color-purple">dataset</b>.season;
+        portfolioImage.<b class="color-function">forEach</b>((img, index) =>
+            img.<b class="color-purple">src</b>=<b class="color-key-string">`./assets/img/</b>${season}<b class="color-key-string">/</b>${index + 1}<b class="color-key-string">.jpg`</b>);
+        portfolioBtn.<b class="color-function">forEach</b>((btn) =>
+            btn.<b class="color-purple">classList</b>.<b class="color-function">remove</b>(<b class="color-key-string">'active'</b>));
+        event.<b class="color-purple">target</b>.<b class="color-purple">classList</b>.<b class="color-function">add</b>(<b class="color-key-string">'active'</b>);
+    }
+}
 
-                </code>
+portfolioBtns.<b class="color-function">addEventListener</b>(<b class="color-key-string">'click'</b>,<b class="color-function">changeImage</b>);
+                </code></pre>
             </section>
         </div>
         <main class="right-column">
@@ -69,47 +88,38 @@
                 <h2>Junior Frontend Developer</h2>
             </header>
             <aside>
-                <section class="contacts">
-                    <h3>Contacts</h3>
-                    <ul>
-                        <li><a href="#" class="contacts-link"><img src="./assets/svg/telegram.svg" alt="telegram" class='logo' >Netrodgen</a></li>
-                        <li><a href="" class="contacts-link"><img src="./assets/svg/telephone.svg" alt="telegram" class='logo' >+7(978)971-74-15</a></li>
-                        <li><a href="" class="contacts-link"><img src="./assets/svg/mail.svg" alt="telegram" class='logo' >p14u@mail.ru</a></li>
-                        <li><a href="" class="contacts-link"><img src="./assets/svg/github.svg" alt="telegram" class='logo' >Netrodgen</a></li>
-                    </ul>
-                </section>
                 <section class="skills">
-                    <h3>Skills</h3>
+                    <h3 data-i18n="skills">Skills</h3>
                     <div class="">
-                    <div class="skills-columns">
-                        <div class="label one">
-                            <img src="./assets/html-5.png" alt="html" class='logo'>
-                            HTML 5</div>
-                        <div class="progress-bar">
-                            <div class="progress fill-1">
+                        <div class="skills-columns">
+                            <div class="label one">
+                                <img src="./assets/html-5.png" alt="html" class='logo'>
+                                HTML 5</div>
+                            <div class="progress-bar">
+                                <div class="progress fill-1">
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="skills-columns">
-                        <div class="label two">
-                            <img src="./assets/svg/css-3.svg" alt="css" class='logo'>
-                            CSS 3</div>
-                        <div class="progress-bar">
-                            <div class="progress fill-2">
+                        <div class="skills-columns">
+                            <div class="label two">
+                                <img src="./assets/svg/css-3.svg" alt="css" class='logo'>
+                                CSS 3</div>
+                            <div class="progress-bar">
+                                <div class="progress fill-2">
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="skills-columns">
+                        <div class="skills-columns">
                             <div class="label three">
                                 <img src="./assets/svg/js.svg" alt="js" class='logo'>
                                 JavaScript</div>
                             <div class="progress-bar">
                                 <div class="progress fill-3">
                                 </div>
+                            </div>
                         </div>
-                    </div>
                         <div class="skills-columns">
                             <div class="label three">
                                 <img src="./assets/git.png" alt="git" class='logo'>
@@ -145,13 +155,37 @@
                         </div>
                     </div>
                 </section>
-                <section class="languages">
-                    <h3>Languages</h3>
+
+                <section class="contacts">
+                    <h3 data-i18n="contacts">Contacts</h3>
                     <ul>
-                        <li>Russian - Native</li>
-                        <li>English - A2 (in progress)</li>
+                        <li><a href="https://t.me/netrodgen" class="contacts-link" target="_blank"><img src="./assets/svg/telegram.svg" alt="telegram" class='logo' >Netrodgen</a></li>
+                        <li><a href="tel: +79778192515" class="contacts-link" ><img src="./assets/svg/telephone.svg" alt="telephone" class='logo' >+7(977)819-25-15</a></li>
+                        <li><a href="mailto: p14u@mail.ru" class="contacts-link" ><img src="./assets/svg/mail.svg" alt="mail" class='logo' >p14u@mail.ru</a></li>
+                        <li><a href="https://github.com/netrodgen" class="contacts-link" target="_blank"><img src="./assets/svg/github.svg" alt="github" class='logo' >Netrodgen</a></li>
                     </ul>
                 </section>
+
+                <section class="languages">
+                    <h3 data-i18n="personal-information">Personal information</h3>
+                    <ul>
+                        <li data-i18n="location">Location: Russia, Anapa</li>
+                        <li data-i18n="moving">Moving: possible</li>
+                        <li data-i18n="birthday">Date of birth: 01.07.1997</li>
+                        <li data-i18n="salary">Desired salary: 666$</li>
+                        <li data-i18n="employment">Employment: full time</li>
+                    </ul>
+                </section>
+
+
+                <section class="languages">
+                    <h3 data-i18n="languages">Languages</h3>
+                    <ul>
+                        <li data-i18n="russian">Russian - Native</li>
+                        <li data-i18n="engilsh">English - A2 (in progress)</li>
+                    </ul>
+                </section>
+
             </aside>
         </main>
 
@@ -163,6 +197,6 @@
 
 </div>
 
-
+<script src="index.js"></script>
 </body>
 </html>
