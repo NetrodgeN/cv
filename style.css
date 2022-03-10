@@ -32,17 +32,19 @@ header{
 width: 250px ;
     /*border-radius: 14px;*/
 }
+/*.portfolio:hover{*/
+/*    opacity: .8;*/
+/*}*/
+
 
 .project{
     box-shadow: 8px 9px 15px #828485;
     width: 250px ;
     height: 156px;
+    position: relative;
 }
 
-.project:hover{
-    transition: 1.5s;
-    box-shadow: 8px 9px 15px #2AAEE7;
-}
+
 
 h2{
     letter-spacing: 2px;
@@ -265,3 +267,42 @@ code{
     color: #2AAEE7
 }
 
+
+
+.card__description-container{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.card__description{
+    background-color: #181920;
+    position: absolute;
+    width: 100%;
+    max-height: 100%;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 11px 0px;
+    opacity: 0;
+    transition-duration: .6s;
+    overflow-y: auto;
+}
+
+.card__description-title{
+    color: #ffffff;
+    text-align: center;
+}
+
+
+.project:hover .card__description{
+    opacity: 1;
+}
+
+.project:hover .portfolio{
+    opacity: .6;
+    transition: 1.5s;
+    box-shadow: 8px 9px 15px #2AAEE7;
+}
