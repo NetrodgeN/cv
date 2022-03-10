@@ -13,7 +13,7 @@ const i18Obj ={
         'location':'Location: Russia, Anapa',
         'moving':'Moving: possible',
         'birthday':'Date of birth: 01.07.1997',
-        'salary':'Desired salary: 666$',
+        'salary':'Desired salary: 50.000 R',
         'employment':'Employment: full time',
         'skills':'Skills',
         'languages':'Languages',
