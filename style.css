@@ -1,6 +1,9 @@
+body{
+    margin: 0;
+}
 .container{
     margin: 20px auto;
-    width: 1024px;
+    max-width: 1024px;
     font-family: "Cabin", sans-serif;
     font-size: 18px;
     line-height: 1.5;
@@ -10,13 +13,14 @@
     display: flex;
 }
 .left-column{
-    padding: 40px;
+    padding: 20px 40px;
     width: 58%;
 }
 
 .right-column{
     width: 32%;
     padding-right: 40px;
+    padding-top: 20px;
 }
 
 header{
@@ -224,6 +228,12 @@ code{
     border-radius: 12px;
     width: 67px;
 }
+
+.switch{
+    display: flex;
+    justify-content: flex-end;
+}
+
 .rus{
     cursor: pointer;
 }
@@ -271,4 +281,112 @@ code{
     opacity: .6;
     transition: 1.5s;
     box-shadow: 8px 9px 15px #2AAEE7;
+}
+
+@media screen and (max-width: 1024px){
+    .container{
+        max-width: 970px;
+        margin: 20px auto;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .container{
+        max-width: 768px;
+        margin: 0 auto;
+    }
+    .right-column{
+        width: 33%;
+        padding-right: 0;
+
+    }
+    .left-column{
+        padding: 20px;
+    }
+    .project{
+        width: 200px;
+        height: 125px;
+    }
+    .portfolio{
+        width: 200px;
+    }
+    code{
+        font-size: 12.5px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .wrapper{
+        flex-direction: column-reverse;
+    }
+    .container{
+        max-width: none;
+    }
+    .right-column{
+        width: 100%;
+        padding-right: 0;
+    }
+    .switch{
+        padding-right: 20px;
+    }
+    .header{
+        padding: 20px 30px 0;
+    }
+    .avatar{
+        height: 100px;
+    }
+    h1{
+        margin:0;
+        font-size: 1.5em;
+    }
+    h2{
+        margin:0;
+        font-size: 1em;
+    }
+    aside{
+        padding: 0 20px;
+    }
+    .left-column{
+        padding: 0px;
+        width: 100%;
+    }
+    .about-me{
+        padding: 0 20px;
+    }
+    .courses{
+        padding: 0 20px;
+    }
+    .my-pet-projects{
+        padding: 0 20px;
+    }
+    .project{
+        width: 280px;
+        height: 175px;
+    }
+    .portfolio{
+        width: 280px;
+    }
+    .code{
+        padding: 0 20px;
+    }
+    code{
+        font-size: 9px;
+        white-space: normal;
+    }
+    .label{
+        font-size: 16px;
+    }
+    .logo{
+        height: 20px;
+        width: 20px;
+    }
+    h3{
+        font-size: 0.9em;
+    }
+    .contacts-link{
+        font-size: 16px;
+    }
+    li{
+        font-size: 16px;
+    }
 }
