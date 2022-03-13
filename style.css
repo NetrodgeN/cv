@@ -221,7 +221,7 @@ code{
     font-size: 14px;
 }
 
-.switch-container{
+.switch-container, .download-container{
     display: flex;
     justify-content: space-evenly;
     border: 2px solid #2AAEE7 ;
@@ -231,7 +231,17 @@ code{
 
 .switch{
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;;
+}
+
+.download-link{
+    text-decoration: none;
+    color: #000000;
+}
+
+.download-link:hover{
+    transition: 0.5s;
+    color: #2AAEE7;
 }
 
 .rus{
@@ -265,7 +275,7 @@ code{
     bottom: 0;
     display: flex;
     flex-direction: column;
-    padding: 11px 0px;
+    padding: 11px 0;
     opacity: 0;
     transition-duration: .6s;
     overflow-y: auto;
@@ -327,7 +337,7 @@ code{
         padding-right: 0;
     }
     .switch{
-        padding-right: 20px;
+        padding: 0 20px;
     }
     .header{
         padding: 20px 30px 0;
@@ -347,7 +357,7 @@ code{
         padding: 0 20px;
     }
     .left-column{
-        padding: 0px;
+        padding: 0;
         width: 100%;
     }
     .about-me{
