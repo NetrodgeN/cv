@@ -13,7 +13,6 @@ const i18Obj ={
         'location':'Location: Russia, Anapa',
         'moving':'Moving: possible',
         'birthday':'Date of birth: 01.07.1997',
-        'salary':'Desired salary: 50.000 R',
         'employment':'Employment: full time',
         'skills':'Skills',
         'languages':'Languages',
@@ -34,7 +33,6 @@ const i18Obj ={
         'location':'Город проживания: Россия, Анапа',
         'moving':'Переезд: возможен',
         'birthday':'Дата рождения: 01.07.1997',
-        'salary':'Желаемая зарплата: 50.000 Р',
         'employment':'Занятость: полная',
         'skills':'Навыки',
         'languages':'Языки',
@@ -68,5 +66,4 @@ function change(event) {
 }
 
 switchContainer.addEventListener('click', change);
-
 
