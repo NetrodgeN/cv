@@ -33,6 +33,9 @@ header{
 .portfolio{
     width: 250px ;
 }
+.cours{
+    width: 300px
+}
 .project{
     box-shadow: 8px 9px 15px #828485;
     width: 250px ;
@@ -156,7 +159,7 @@ li{
         width: 0;
     }
     100% {
-        width: 40%;
+        width: 45%;
     }
 }
 @keyframes fill-4 {
@@ -180,7 +183,7 @@ li{
         width: 0;
     }
     100% {
-        width: 20%;
+        width: 30%;
     }
 }
 @keyframes fill-7 {
@@ -366,6 +369,10 @@ code{
     .courses{
         padding: 0 20px;
     }
+    .cours{
+        width: 250px
+    }
+
     .my-pet-projects{
         padding: 0 20px;
     }
