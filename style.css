@@ -82,7 +82,7 @@ li{
 }
 .columns{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     flex-wrap: wrap;
     flex-direction: row;
     gap: 32px;
@@ -183,7 +183,7 @@ li{
         width: 0;
     }
     100% {
-        width: 30%;
+        width: 40%;
     }
 }
 @keyframes fill-7 {
@@ -191,7 +191,7 @@ li{
         width: 0;
     }
     100% {
-        width: 15%;
+        width: 25%;
     }
 }
 
@@ -358,6 +358,9 @@ code{
     }
     aside{
         padding: 0 20px;
+    }
+    .columns{
+        justify-content:center;
     }
     .left-column{
         padding: 0;
