@@ -14,7 +14,7 @@
     <div class="wrapper">
         <div class="left-column">
             <section class="about-me">
-            <h3 data-i18n="about-me">About me</h3>
+                <h3 data-i18n="about-me">About me</h3>
                 <p class="about-me-content" data-i18n="about-me-content-1">My name is Yaroslav, I am 24 years old, I am
                     junior frontend developer. My personal qualities are ability to achieve goals, effective time
                     planning, perseverance, ability to easily maintain business and professional relationships, desire
@@ -23,59 +23,31 @@
                     in future.</p>
                 <p class="about-me-content" data-i18n="about-me-content-2">At first, I worked at catering industry: I
                     graduated from college with a degree in catering technologist, then finished two years with
-                    specialty milky production technologist, I have been a chef for four years at Moscow restaurants. </p>
+                    specialty milky production technologist, I have been a chef for four years at Moscow
+                    restaurants. </p>
                 <p class="about-me-content" data-i18n="about-me-content-3">I decided to change my specialty when I saw
                     my friend working as a programmer. I was interested to try something unknown, my new job quickly
                     took over, now I plan to develop in this direction. </p>
                 <p class="about-me-content" data-i18n="about-me-content-4">When I work at every task, I learn something
                     new, I am not afraid to ask for help and advice. It is important for me to complete the task quickly
                     and effectively. It is important for me not only to gain experience, but also to take my place in a
-                    team where I can be useful, with which I can move into the future, contributing to the common deal.</p>
+                    team where I can be useful, with which I can move into the future, contributing to the common
+                    deal.</p>
             </section>
             <section class="courses">
                 <h3 data-i18n="courses">Courses</h3>
                 <p>RS School - 'JavaScript/FE'</p>
                 <p>w3schools - HTML and CSS Tutorials</p>
-                    <div>
-                        <a href="https://www.codewars.com/users/NetrodgeN" target="_blank">
-                            <img src="https://www.codewars.com/users/NetrodgeN/badges/large" alt="codewars" class='cours'>
-                        </a>
-                    </div>
+                <div>
+                    <a href="https://www.codewars.com/users/NetrodgeN" target="_blank">
+                        <img src="https://www.codewars.com/users/NetrodgeN/badges/large" alt="codewars" class='cours'>
+                    </a>
+                </div>
             </section>
 
             <section class="my-pet-projects">
                 <h3 data-i18n="my-projects">My pet projects</h3>
                 <div class="columns">
-
-                <div class="project">
-                    <a href="https://netrodgen.github.io/portfolio/" target="_blank">
-                        <div class="card">
-                            <img src="./assets/2.png" alt="my-web-site" class="portfolio" >
-                        </div>
-                        <div class="card__description-container">
-                            <div class="card__description">
-                            <span class="card__description-title">
-                                Portfolio photograph
-                            </span>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="project">
-                    <a href="https://netrodgen.github.io/movie-app/" target="_blank">
-                    <div class="card">
-                        <img src="./assets/3.png" alt="my-web-site" class="portfolio">
-                    </div>
-                    <div class="card__description-container">
-                        <div class="card__description">
-                            <span class="card__description-title">
-                                Movie app. API
-                            </span>
-                        </div>
-                    </div>
-                    </a>
-                </div>
 
                     <div class="project">
                         <a href="https://netrodgen.github.io/library/" target="_blank">
@@ -92,27 +64,62 @@
                         </a>
                     </div>
 
+                    <div class="project">
+                        <a href="https://netrodgen.github.io/portfolio/" target="_blank">
+                            <div class="card">
+                                <img src="./assets/2.png" alt="my-web-site" class="portfolio">
+                            </div>
+                            <div class="card__description-container">
+                                <div class="card__description">
+                            <span class="card__description-title">
+                                Portfolio photograph
+                            </span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="project">
+                        <a href="https://netrodgen.github.io/movie-app/" target="_blank">
+                            <div class="card">
+                                <img src="./assets/3.png" alt="my-web-site" class="portfolio">
+                            </div>
+                            <div class="card__description-container">
+                                <div class="card__description">
+                            <span class="card__description-title">
+                                Movie app. API
+                            </span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
                 </div>
             </section>
             <section class="code">
                 <h3 data-i18n="code-example">Code example</h3>
-                <pre><code><b class="color-key-words">const</b> portfolioBtns = <b class="color-dom">document</b>.<b class="color-function">querySelector</b>(<b class="color-key-string">'.button__column'</b>);
+                <pre><code><b class="color-key-words">const</b> portfolioBtns = <b class="color-dom">document</b>.<b
+                        class="color-function">querySelector</b>(<b class="color-key-string">'.button__column'</b>);
 <b class="color-key-words">function</b> <b class="color-function">changeImage </b>(event) {
-    <b class="color-key-words">if</b>(event.<b class="color-purple">target</b>.<b class="color-purple">classList</b>.contains(<b class="color-key-string">'button__portfolio'</b>)) {
+    <b class="color-key-words">if</b>(event.<b class="color-purple">target</b>.<b class="color-purple">classList</b>.contains(<b
+                            class="color-key-string">'button__portfolio'</b>)) {
         <b class="color-key-words">const</b> season = event.<b class="color-purple">target</b>.<b class="color-purple">dataset</b>.season;
         portfolioImage.<b class="color-function">forEach</b>((img, index) =>
-            img.<b class="color-purple">src</b>=<b class="color-key-string">`./assets/img/</b>${season}<b class="color-key-string">/</b>${index + 1}<b class="color-key-string">.jpg`</b>);
+            img.<b class="color-purple">src</b>=<b class="color-key-string">`./assets/img/</b>${season}<b
+                            class="color-key-string">/</b>${index + 1}<b class="color-key-string">.jpg`</b>);
         portfolioBtn.<b class="color-function">forEach</b>((btn) =>
             btn.<b class="color-purple">classList</b>.<b class="color-function">remove</b>(<b class="color-key-string">'active'</b>));
-        event.<b class="color-purple">target</b>.<b class="color-purple">classList</b>.<b class="color-function">add</b>(<b class="color-key-string">'active'</b>);
+        event.<b class="color-purple">target</b>.<b class="color-purple">classList</b>.<b class="color-function">add</b>(<b
+                            class="color-key-string">'active'</b>);
     }
 }
 
-portfolioBtns.<b class="color-function">addEventListener</b>(<b class="color-key-string">'click'</b>,<b class="color-function">changeImage</b>);
+portfolioBtns.<b class="color-function">addEventListener</b>(<b class="color-key-string">'click'</b>,<b
+                            class="color-function">changeImage</b>);
                 </code></pre>
             </section>
         </div>
-        
+
         <main class="right-column">
             <div class="switch">
                 <div class="download-container">
@@ -136,7 +143,8 @@ portfolioBtns.<b class="color-function">addEventListener</b>(<b class="color-key
                         <div class="skills-columns">
                             <div class="label one">
                                 <img src="./assets/html-5.png" alt="html" class='logo'>
-                                HTML 5</div>
+                                HTML 5
+                            </div>
                             <div class="progress-bar">
                                 <div class="progress fill-1">
                                 </div>
@@ -146,7 +154,8 @@ portfolioBtns.<b class="color-function">addEventListener</b>(<b class="color-key
                         <div class="skills-columns">
                             <div class="label two">
                                 <img src="./assets/svg/css-3.svg" alt="css" class='logo'>
-                                CSS 3 / SASS / SCSS</div>
+                                CSS 3 / SASS / SCSS
+                            </div>
                             <div class="progress-bar">
                                 <div class="progress fill-2">
                                 </div>
@@ -156,7 +165,8 @@ portfolioBtns.<b class="color-function">addEventListener</b>(<b class="color-key
                         <div class="skills-columns">
                             <div class="label three">
                                 <img src="./assets/svg/js.svg" alt="js" class='logo'>
-                                JavaScript</div>
+                                JavaScript
+                            </div>
                             <div class="progress-bar">
                                 <div class="progress fill-3">
                                 </div>
@@ -165,7 +175,8 @@ portfolioBtns.<b class="color-function">addEventListener</b>(<b class="color-key
                         <div class="skills-columns">
                             <div class="label three">
                                 <img src="./assets/git.png" alt="git" class='logo'>
-                                Git</div>
+                                Git
+                            </div>
                             <div class="progress-bar">
                                 <div class="progress fill-4">
                                 </div>
@@ -173,7 +184,8 @@ portfolioBtns.<b class="color-function">addEventListener</b>(<b class="color-key
                         </div>
                         <div class="skills-columns">
                             <div class="label three">
-                                <img src="./assets/svg/github.svg" alt="github" class='logo'>GitHub</div>
+                                <img src="./assets/svg/github.svg" alt="github" class='logo'>GitHub
+                            </div>
                             <div class="progress-bar">
                                 <div class="progress fill-5">
                                 </div>
@@ -181,7 +193,8 @@ portfolioBtns.<b class="color-function">addEventListener</b>(<b class="color-key
                         </div>
                         <div class="skills-columns">
                             <div class="label three">
-                                <img src="./assets/atomic-energy.png" alt="react" class='logo'>React Redux</div>
+                                <img src="./assets/atomic-energy.png" alt="react" class='logo'>React Redux
+                            </div>
                             <div class="progress-bar">
                                 <div class="progress fill-6">
                                 </div>
@@ -189,7 +202,8 @@ portfolioBtns.<b class="color-function">addEventListener</b>(<b class="color-key
                         </div>
                         <div class="skills-columns">
                             <div class="label three">
-                                <img src="./assets/typescript.png" alt="typescript" class='logo'>TypeScript</div>
+                                <img src="./assets/typescript.png" alt="typescript" class='logo'>TypeScript
+                            </div>
                             <div class="progress-bar">
                                 <div class="progress fill-7">
                                 </div>
@@ -202,10 +216,16 @@ portfolioBtns.<b class="color-function">addEventListener</b>(<b class="color-key
                 <section class="contacts">
                     <h3 data-i18n="contacts">Contacts</h3>
                     <ul>
-                        <li><a href="https://t.me/netrodgen" class="contacts-link" target="_blank"><img src="./assets/svg/telegram.svg" alt="telegram" class='logo' >Netrodgen</a></li>
-                        <li><a href="tel:+79789717415" class="contacts-link" ><img src="./assets/svg/telephone.svg" alt="telephone" class='logo' >+7(978)971-74-15</a></li>
-                        <li><a href="mailto:p14u@mail.ru" class="contacts-link" ><img src="./assets/svg/mail.svg" alt="mail" class='logo' >p14u@mail.ru</a></li>
-                        <li><a href="https://github.com/netrodgen" class="contacts-link" target="_blank"><img src="./assets/svg/github.svg" alt="github" class='logo' >Netrodgen</a></li>
+                        <li><a href="https://t.me/netrodgen" class="contacts-link" target="_blank"><img
+                                src="./assets/svg/telegram.svg" alt="telegram" class='logo'>Netrodgen</a></li>
+                        <li><a href="tel:+79789717415" class="contacts-link"><img src="./assets/svg/telephone.svg"
+                                                                                  alt="telephone" class='logo'>+7(978)971-74-15</a>
+                        </li>
+                        <li><a href="mailto:p14u@mail.ru" class="contacts-link"><img src="./assets/svg/mail.svg"
+                                                                                     alt="mail" class='logo'>p14u@mail.ru</a>
+                        </li>
+                        <li><a href="https://github.com/netrodgen" class="contacts-link" target="_blank"><img
+                                src="./assets/svg/github.svg" alt="github" class='logo'>Netrodgen</a></li>
                     </ul>
                 </section>
 
@@ -218,7 +238,6 @@ portfolioBtns.<b class="color-function">addEventListener</b>(<b class="color-key
                         <li data-i18n="employment">Employment: full time</li>
                     </ul>
                 </section>
-
 
                 <section class="languages">
                     <h3 data-i18n="languages">Languages</h3>
