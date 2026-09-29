@@ -1,6 +1,7 @@
 const i18Obj ={
     'en': {
         'title': 'Yaroslav Demin — Frontend Developer',
+        'print': 'Print page',
         'name': 'Yaroslav Demin',
         'position': 'Middle Frontend Developer | React | TypeScript | JavaScript',
         'city': 'Moscow',
@@ -60,6 +61,7 @@ const i18Obj ={
     },
     'ru':{
         'title': 'Демин Ярослав — Frontend-разработчик',
+        'print': 'Распечатать страницу',
         'name': 'Демин Ярослав Сергеевич',
         'position': 'Middle Frontend-разработчик | React | TypeScript | JavaScript',
         'city': 'Москва',

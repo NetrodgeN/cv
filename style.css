@@ -46,6 +46,9 @@ p{
     border: 1px solid #999;
     border-radius: 12px;
     background: var(--paper);
+    color: var(--text);
+    font: inherit;
+    cursor: pointer;
 }
 .toolbar-link:hover{
     text-decoration: none;
@@ -184,6 +187,8 @@ p{
         margin: 0;
         padding: 0;
         box-shadow: none;
+        /* аналог Scale: Custom 76 в окне печати */
+        zoom: 0.76;
     }
     .project{
         break-inside: avoid-page;
