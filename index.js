@@ -55,7 +55,7 @@ const i18Obj ={
         'recommendations': 'References:',
         'recommendations-content': 'LANIT — Yulia (Head of Frontend Development), Alexander (Development Team Lead)',
         'employment': 'Employment:',
-        'employment-content': 'full time; remote, office or hybrid; not willing to relocate, open to occasional business trips',
+        'employment-content': 'full time; remote, office or hybrid',
         'personal': 'Personal information:',
         'personal-content': 'date of birth 01.07.1997, citizenship — Russia',
     },
@@ -115,7 +115,7 @@ const i18Obj ={
         'recommendations': 'Рекомендации:',
         'recommendations-content': 'ЛАНИТ — Юлия (руководитель отдела frontend-разработки), Александр (руководитель группы разработки)',
         'employment': 'Занятость:',
-        'employment-content': 'полная; удалённо, в офисе или гибрид; не готов к переезду, готов к редким командировкам',
+        'employment-content': 'полная; удалённо, в офисе или гибрид',
         'personal': 'Личная информация:',
         'personal-content': 'дата рождения 01.07.1997, гражданство — Россия',
     }
