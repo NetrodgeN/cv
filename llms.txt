@@ -1,0 +1,31 @@
+# Yaroslav Demin (Демин Ярослав Сергеевич) — Middle Frontend Developer
+
+> Frontend developer from Moscow, Russia, specializing in React and TypeScript. Experienced in SPAs and large government/enterprise systems, microfrontends (Webpack Module Federation), performance optimization, build migration (CRA/Webpack → Vite), UI kit maintenance and testing. Open to full-time work: remote, office or hybrid.
+
+- Full CV (Russian): https://netrodgen.github.io/cv/
+- Full CV (English): https://netrodgen.github.io/cv/en/
+- Email: netrodgen@gmail.com
+- Telegram: https://t.me/netrodgen
+- GitHub: https://github.com/netrodgen
+
+## Experience
+
+### LANIT, Moscow — Frontend Developer (September 2022 — April 2026)
+
+- **State Register of Medicinal Products** (11.2025 — 04.2026). React 18, TypeScript, Vite, Tailwind CSS, Zustand, React Hook Form, React Router. Migrated from Create React App (Webpack) to Vite; built a multi-step wizard form with validation, a version diff view and a versioned tree-structured document upload component; covered business logic with Jest and React Testing Library.
+- **Moscow Urban Economy Complex Control Center** (03.2025 — 10.2025). Vue 2/3, Angular 19, TypeScript, Leaflet, 2GIS, Keycloak. Built an interactive calendar scheduler, a Keycloak role-based access widget, a "Screenshot to PDF" widget, and interactive map pages with Leaflet + 2GIS layers; refactored map modules.
+- **Russian Union of Motor Insurers (NSIS)** (09.2022 — 03.2025). React 17, TypeScript, Redux Toolkit, Webpack, Module Federation, Storybook, Jest. Cut application load time from 12 s to 1.5 s, build size from 80 MB to 50 MB, and package installation from 10 min to 30 s; upgraded Node.js 14 → 18; configured shared dependencies in Module Federation and built new microfrontends; split the UI kit into smaller packages.
+
+## Skills
+
+- Technologies: React, TypeScript, JavaScript, Redux, Zustand, HTML5, CSS3, Tailwind CSS, React Hook Form, React Router, REST API, Leaflet, Vue, Angular
+- Build & testing: Webpack, Module Federation, Vite, Storybook, Jest, React Testing Library
+- Tools & processes: Git, CI/CD, GitLab, Gerrit, Jira, Confluence, Figma, code review
+- AI tools: Cursor, Claude, Codex, Perplexity
+- Languages: Russian (native), English (B1)
+
+## Education
+
+Moscow State University of Applied Biotechnology — incomplete higher education (2020).
+
+Last updated: 2026-09-30

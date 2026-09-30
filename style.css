@@ -79,6 +79,10 @@ p{
     font-size: 30px;
     font-weight: 400;
 }
+.header-alt-name{
+    color: var(--muted);
+    font-size: 14px;
+}
 .header-position{
     margin-top: 2px;
     font-size: 16px;
@@ -147,6 +151,16 @@ p{
     padding-left: 2px;
 }
 
+.page-footer{
+    max-width: 820px;
+    margin: -28px auto 40px;
+    padding: 0 16px;
+    color: var(--muted);
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    text-align: right;
+}
+
 @media screen and (max-width: 767px){
     body{
         font-size: 14px;
@@ -179,7 +193,7 @@ p{
     body{
         background: var(--paper);
     }
-    .toolbar{
+    .toolbar, .page-footer{
         display: none;
     }
     .page{
