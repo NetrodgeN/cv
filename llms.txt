@@ -1,6 +1,6 @@
-# Yaroslav Demin (Демин Ярослав Сергеевич) — Middle Frontend Developer
+# Yaroslav Demin (Демин Ярослав Сергеевич) - Middle Frontend Developer
 
-> Frontend developer from Moscow, Russia, specializing in React and TypeScript. Experienced in SPAs and large government/enterprise systems, microfrontends (Webpack Module Federation), performance optimization, build migration (CRA/Webpack → Vite), UI kit maintenance and testing. Open to full-time work: remote, office or hybrid.
+> Frontend developer from Moscow, Russia, with 3.5+ years of commercial experience. Main stack: React and TypeScript. Experienced in large government and industry systems: microfrontends (Webpack Module Federation), complex multi-step forms, role-based access, build and load-time optimization, CRA → Vite migration, UI kit and testing. Was the sole frontend developer of a 15-module platform for over a year, then handed it over and mentored two developers. Also has six months of commercial Angular and Vue experience. Open to full-time work: remote, office or hybrid.
 
 - Full CV (Russian): https://netrodgen.github.io/cv/
 - Full CV (English): https://netrodgen.github.io/cv/en/
@@ -10,22 +10,22 @@
 
 ## Experience
 
-### LANIT, Moscow — Frontend Developer (September 2022 — April 2026)
+### LANIT, Moscow - Frontend Developer (September 2022 - April 2026)
 
-- **State Register of Medicinal Products** (11.2025 — 04.2026). React 18, TypeScript, Vite, Tailwind CSS, Zustand, React Hook Form, React Router. Migrated from Create React App (Webpack) to Vite; built a multi-step wizard form with validation, a version diff view and a versioned tree-structured document upload component; covered business logic with Jest and React Testing Library.
-- **Moscow Urban Economy Complex Control Center** (03.2025 — 10.2025). Vue 2/3, Angular 19, TypeScript, Leaflet, 2GIS, Keycloak. Built an interactive calendar scheduler, a Keycloak role-based access widget, a "Screenshot to PDF" widget, and interactive map pages with Leaflet + 2GIS layers; refactored map modules.
-- **Russian Union of Motor Insurers (NSIS)** (09.2022 — 03.2025). React 17, TypeScript, Redux Toolkit, Webpack, Module Federation, Storybook, Jest. Cut application load time from 12 s to 1.5 s, build size from 80 MB to 50 MB, and package installation from 10 min to 30 s; upgraded Node.js 14 → 18; configured shared dependencies in Module Federation and built new microfrontends; split the UI kit into smaller packages.
+- **State Register of Medicinal Products** (11.2025 - 04.2026). Applicant portal; 16 frontend developers from several companies. React 18, TypeScript, Vite, Zustand, SWR, React Hook Form, Yup, React Router, Tailwind CSS, Jest, React Testing Library. Owned the orphan drug designation module end to end (5-step form with nested subforms, drafts, full application lifecycle); built application version comparison with change highlighting and a reusable versioned document tree, both covered with tests; centralized role-based route access and HTTP 403 handling, replacing ~600 lines of navigation config; migrated from CRA to Vite and introduced ESLint, Prettier, Husky and Jest.
+- **Moscow Urban Economy Complex Control Center** (03.2025 - 10.2025). Monitoring and coordination platform for municipal services; 2 frontend developers. Angular 17, RxJS, Vue 2, TypeScript, Leaflet, 2GIS, Keycloak. Owned the calendar scheduler (reworked the event form, added recurring events, export, custom fields, permissions); built a "Screenshot to PDF" widget, an Angular registry of urban improvement requests with tables, cards, an interactive Leaflet + 2GIS map with layers and export, and a Keycloak role-based access widget; refactored map and registry modules into services; documented widgets in Confluence.
+- **Russian Union of Motor Insurers (NSIS)** (09.2022 - 03.2025). Workstation for insurance companies (OSAGO, KASKO, strict reporting forms, claims, master data); microfrontend platform of 15 modules; sole frontend developer in a 20+ person team since November 2023. React 18, TypeScript, Redux Toolkit, Module Federation, Webpack, Lerna, Storybook, React Final Form, React Table, Jest, React Testing Library. Split the UI kit into independent packages and configured Module Federation shared dependencies: initial load 12 s → 1.5 s, build size 80 MB → 50 MB; eliminated circular dependencies, cutting dependency installation from 10 min to 50 s; built the KASKO and property "Contracts" module and added KASKO to the "Insured Events" module; moved the strict reporting forms module to BFF; migrated to React 18 and Node.js 18; handed the project over to another company's team and mentored two developers.
 
 ## Skills
 
-- Technologies: React, TypeScript, JavaScript, Redux, Zustand, HTML5, CSS3, Tailwind CSS, React Hook Form, React Router, REST API, Leaflet, Vue, Angular
-- Build & testing: Webpack, Module Federation, Vite, Storybook, Jest, React Testing Library
+- Technologies: React, TypeScript, JavaScript, Redux, Zustand, SWR, HTML5, CSS3, Tailwind CSS, React Hook Form, Yup, React Final Form, React Router, REST API, Leaflet, Vue, Angular, RxJS
+- Build & testing: Webpack, Module Federation, Vite, Lerna, Storybook, ESLint, Prettier, Jest, React Testing Library
 - Tools & processes: Git, CI/CD, GitLab, Gerrit, Jira, Confluence, Figma, code review
 - AI tools: Cursor, Claude, Codex, Perplexity
 - Languages: Russian (native), English (B1)
 
 ## Education
 
-Moscow State University of Applied Biotechnology — incomplete higher education (2020).
+Moscow State University of Applied Biotechnology - incomplete higher education (2020).
 
-Last updated: 2026-09-30
+Last updated: 2026-10-19
