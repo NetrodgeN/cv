@@ -18,10 +18,18 @@
 
 ## Skills
 
-- Technologies: React, TypeScript, JavaScript, Redux, Zustand, SWR, HTML5, CSS3, Tailwind CSS, React Hook Form, Yup, React Final Form, React Router, REST API, Leaflet, Vue, Angular, RxJS
-- Build & testing: Webpack, Module Federation, Vite, Lerna, Storybook, ESLint, Prettier, Jest, React Testing Library
-- Tools & processes: Git, CI/CD, GitLab, Gerrit, Jira, Confluence, Figma, code review
-- AI tools: Cursor, Claude, Codex, Perplexity
+- Core: TypeScript, JavaScript, React, React Router, HTML, CSS
+- Also worked with: Angular, Vue, RxJS
+- State & data: Redux Toolkit, Zustand, SWR, Axios, REST API
+- Forms: React Hook Form, React Final Form, Yup
+- Styling: SCSS/Sass, CSS Modules, styled-components, Tailwind CSS
+- Architecture: microfrontends (Module Federation), monorepo (Lerna), BFF, UI kit, role-based access (Keycloak)
+- Build & code quality: Vite, Webpack, Docker, Storybook, ESLint, Prettier, Husky
+- Testing: Jest, React Testing Library
+- Maps: Leaflet, 2GIS
+- Tools: Git, GitLab, Gerrit, Jira, Confluence, Figma
+- Processes: code review, Kanban, onboarding and mentoring
+- AI: Cursor, Claude, Codex, Perplexity
 - Languages: Russian (native), English (B1)
 
 ## Education

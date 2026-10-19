@@ -189,9 +189,16 @@ p{
     }
 }
 
+@page{
+    size: A4;
+    margin: 15mm 18mm;
+}
+
 @media print{
     body{
         background: var(--paper);
+        font-size: 10.5pt;
+        line-height: 1.3;
     }
     .toolbar, .page-footer{
         display: none;
@@ -201,10 +208,29 @@ p{
         margin: 0;
         padding: 0;
         box-shadow: none;
-        /* аналог Scale: Custom 76 в окне печати */
-        zoom: 0.76;
     }
-    .project{
-        break-inside: avoid-page;
+    .header h1{
+        font-size: 20pt;
+    }
+    .header-alt-name{
+        font-size: 10pt;
+    }
+    .header-position{
+        font-size: 11pt;
+    }
+    .section-title{
+        font-size: 11pt;
+        break-after: avoid;
+    }
+    .bullets{
+        padding-left: 18pt;
+        text-align: left;
+    }
+    /* заголовок проекта не отрывается от описания, пункты не рвутся между страницами */
+    .row, .project > p{
+        break-after: avoid;
+    }
+    .bullets li{
+        break-inside: avoid;
     }
 }
