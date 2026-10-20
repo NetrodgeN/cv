@@ -163,7 +163,7 @@ p{
 
 @media screen and (max-width: 767px){
     body{
-        font-size: 14px;
+        font-size: 16px;
     }
     .page{
         margin: 8px 0 0;
@@ -174,7 +174,16 @@ p{
         margin-top: 8px;
     }
     .header h1{
-        font-size: 24px;
+        font-size: 26px;
+    }
+    .header-alt-name{
+        font-size: 16px;
+    }
+    .header-position{
+        font-size: 18px;
+    }
+    .section-title{
+        font-size: 17px;
     }
     .row{
         flex-wrap: wrap;
