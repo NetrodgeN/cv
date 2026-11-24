@@ -1,4 +1,4 @@
-# Yaroslav Demin (Демин Ярослав Сергеевич) - Middle Frontend Developer
+# Yaroslav Demin (Демин Ярослав Сергеевич) - Frontend Developer
 
 > Frontend developer from Moscow, Russia, with 3.5+ years of commercial experience. Main stack: React and TypeScript. Experienced in large government and industry systems: microfrontends (Webpack Module Federation), complex multi-step forms, role-based access, build and load-time optimization, CRA → Vite migration, UI kit and testing. Was the sole frontend developer of a 15-module platform for over a year, then handed it over and mentored two developers. Also has six months of commercial Angular and Vue experience. Rolled out AI-assisted development (Cursor, Claude Code, Spec-Driven Development) in a team of 8 developers. Open to full-time work: remote, office or hybrid.
 
@@ -29,11 +29,7 @@
 - Maps: Leaflet, 2GIS
 - Tools: Git, GitLab, Gerrit, Jira, Confluence, Figma
 - Processes: code review, Kanban, onboarding and mentoring
-- AI: Cursor, Claude, Codex, Perplexity
+- AI: Cursor, Claude, Codex, OpenSpec
 - Languages: Russian (native), English (B1)
-
-## Education
-
-Moscow State University of Applied Biotechnology - incomplete higher education (2020).
 
 Last updated: 2026-10-19
